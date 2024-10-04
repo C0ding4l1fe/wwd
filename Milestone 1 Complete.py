@@ -22,5 +22,5 @@ payment=float(input("How much are you gonna pay?"))
 change=float(payment-cost)
 totalchange=round(change,2)
 print("Change: $" +str(totalchange))
-
+input("Click Enter to End the Program")
 
