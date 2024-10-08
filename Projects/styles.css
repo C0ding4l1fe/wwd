@@ -4,3 +4,7 @@ nav, footer {
     padding: 10px;
   }
 body {margin: 0;text-align: center;}
+h1{
+color: white;
+}
+a :hover{color: white;}
