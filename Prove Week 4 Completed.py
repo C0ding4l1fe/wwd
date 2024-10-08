@@ -15,25 +15,25 @@ drink_cost=float((adult+child)*drink)
 side_cost=float((adult+child)*side)
 subtotal=float(child_cost+adult_cost+side_cost+drink_cost)
 Real_Subtotal=round(subtotal,2)
-print ("Subtotal: $"+str(Real_Subtotal))
+print (f"Subtotal: ${Real_Subtotal}")
 
 #Taxes Codes
 tax=float (round((taxes/100),2))
 sales_tax=float(Real_Subtotal*tax)
 sale_tax=round(sales_tax,2)
-print ("Sales Tax: $"+str(sale_tax))
+print (f"Sales Tax: ${sale_tax}")
 
 #Ending Calculations and Displays
 #Cost
 cost=float(Real_Subtotal+sale_tax)
 total_cost=round(cost,2)
-print ("Total Cost: $" +str(total_cost))
+print (f"Total Cost: ${total_cost}" )
 
 #Payment and Change 
 payment=float(input("How much are you gonna pay?"))
 change=float(payment-total_cost)
 total_change=round(change,2)
-print("Change: $" +str(total_change))
+print(f"Change: ${total_change}")
 
 #Prevent from Closing Code
 input("Click Enter to End the Program")
