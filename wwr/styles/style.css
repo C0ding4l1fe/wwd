@@ -8,17 +8,22 @@ main section {text-align: center;}
 #background {
     height: 725px;
 }
+
+-primary-color: #07BADA   ;
+  --secondary-color: #D5591B ;
+  --accent1-color: #C6BF08;
+  --accent2-color: #398A34;
 body {
-    background-color: #0197F6; color: ;
+    background-color: #07BADA ; color:#D5591B ;
 }
 header {
-    background-color:#F34213;color: ;
+    background-color:#D5591B;color:#07BADA ;
 }
 nav a:hover {
-    background-color: #136F63;color: ;
+    background-color: #398A34;color: white;
 }
-.book, .join {background-color: #D8FFDD;color: ;}
-.book:hover, .join:hover{background-color: #442B48;color: ;}
-#background{background-color: #344966;color: ;}
-.msg{background-color: #4C934C;color: ;}
-footer {background-color: #EEE82C;color: ;}
+.book, .join {background-color: #C6BF08;color: black ;}
+.book:hover, .join:hover{background-color: #398A34;color: white ;}
+#background{background-color: #C6BF08;color:black ;}
+.msg{background-color: #C6BF08;color:black ;}
+footer {background-color: #D5591B;color:#07BADA  ;}
