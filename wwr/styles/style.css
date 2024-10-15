@@ -2,15 +2,7 @@
 :root{
 --heading-font: "Rock Salt",'Bradley Hand', sans-serif;
 --paragraph-font: "Lato", Helvetica, sans-serif;
---headline-color-on-white: #396E94;
---headline-color-on-color: rgb(218, 214, 22); 
---paragraph-color-on-white: #396E94; 
---paragraph-color-on-color: #D5591B;  
---paragraph-background-color: #07BADA  ;
---nav-link-color: #1624e2;
---nav-background-color: #07da66;
---nav-hover-link-color: rgb(58, 61, 228);
---nav-hover-background-color: #67df99;
+
 }
 #content {max-width: 1600px; margin: 0 auto;}
 nav a {text-align: center;text-decoration: none;padding: 35px;}
