@@ -1,9 +1,3 @@
-
-choicestairs=""
-choiceleft=""
-choiceright=""
-choiceevade=""
-choiceone=""
 choiceone=input("You wake up feeling very groggy, with a splitting headache and blurry vision. As it clears, you find yourself within a dimly lit mansion. Its the middle of the night, and you hear sounds of a storm outside. The mansion is eerily silent, with only a dozen candles to light your view. You seem to be in the entry room of the mansion, with a staircase leading to a second floor, a door to the right and left, and a set of double doors on the far wall. Do you go up the STAIRS, to the LEFT, or to the RIGHT?")
 #First Choice Responses
 if choiceone.lower()=="left":
@@ -19,7 +13,7 @@ else: print("")
 if choiceone.lower() not in("left","stairs","right","leave","double doors","doors") : print("I'm sorry, but that wasn't one of the designed options, please type in one of the words that are in all caps, or maybe you might get lucky in picking something not in caps, who knows? But seriously, just pick one of the all caps words, you need to get lucky to find the secrets.") 
 
 #Second Choice Responses
-
+choicestairs=""
 if choicestairs.lower()=="run":
     choicerun=input("Hassen")
 elif choicestairs.lower()=="fight":
@@ -37,6 +31,3 @@ elif choiceleft.lower()=="look":
     choicelook=input("B")
 elif choiceleft.lower()=="eating":
     choiceeating=input("C")
-if choicestairs not in("grab","look", "eating"):
-    print("I'm sorry, but that wasn't one of the designed options, please type in one of the words that are in all caps, or maybe you might get lucky in picking something not in caps, who knows? But seriously, just pick one of the all caps words, you need to get lucky to find the secrets.")
-
