@@ -8,12 +8,12 @@ else: print("I'm sorry, but that wasn't one of the designed options, please type
 
 #Second Choice Responses
 
-if secondchoicestairs.lower()=="run":input("Hassen")
-elif secondchoicestairs.lower()=="fight":input("Hassen")
-elif secondchoicestairs.lower()=="evade":input("Hassen")
+if choicestairs.lower()=="run":choicerun=input("Hassen")
+elif choicestairs.lower()=="fight":choicefight=input("Pie")
+elif choicestairs.lower()=="evade":choiceevade=("Racked")
 else: print("I'm sorry, but that wasn't one of the designed options, please type in one of the words that are in all caps, or maybe you might get lucky in picking something not in caps, who knows? But seriously, just pick one of the all caps words, you need to get lucky to find the secrets.") 
 #Second Choice Left Responses
-if choiceleft.lower()=="look":input("Schnitzel")
-elif choiceleft.lower()=="grab":input("Schnitzel")
-elif choiceleft.lower()=="eating":input("Schnitzel")
+if choiceleft.lower()=="look":choicelook=input("Schnitzel")
+elif choiceleft.lower()=="grab":choicegrab=input("Brautwurst")
+elif choiceleft.lower()=="eating":choiceeating=input("Schnitzel")
 else: print("I'm sorry, but that wasn't one of the designed options, please type in one of the words that are in all caps, or maybe you might get lucky in picking something not in caps, who knows? But seriously, just pick one of the all caps words, you need to get lucky to find the secrets.") 
