@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 :root{
---heading-font: "Rock Salt";
+--heading-font: "Rock Salt",'Bradley Hand', sans-serif;
 --paragraph-font: "Lato", Helvetica, sans-serif;
 --headline-color-on-white: #396E94;
 --headline-color-on-color: rgb(218, 214, 22); 
