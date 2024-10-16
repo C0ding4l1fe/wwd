@@ -1,6 +1,7 @@
 choiceleft=""
 choicegrab=""
 choicestairs=""
+choiceeating=""
 
 
 
@@ -13,24 +14,27 @@ elif choiceone.lower()=="stairs":
 elif choiceone.lower()=="right":
     choiceright=input("You choose the right door")
 elif choiceone.lower() in("leave","double doors","doors"):
-    secondchoice=input("Alabaster")
-else: 
-      print("I'm sorry, but that wasn't one of the designed options, please type in one of the words that are in all caps, or maybe you might get lucky in picking something not in caps, who knows? But seriously, just pick one of the all caps words, you need to get lucky to find the secrets.") 
-#Second Choice Responses
+    secondchoice=input("You try the double doors, and notice they are unlocked. You open them to find an exit to the mansion. You leave, and by the light of the moon, manage to find your way home without any further incedent.")
+
+    #Second Choice Responses
 if choicestairs.lower()=="run":
     choicerun=input("Hassen")
 elif choicestairs.lower()=="fight":
     choicefight=input("Pie")
 elif choicestairs.lower()=="evade":
     choiceevade=input("Racked")
-else: 
-      print("I'm sorry, but that wasn't one of the designed options, please type in one of the words that are in all caps, or maybe you might get lucky in picking something not in caps, who knows? But seriously, just pick one of the all caps words, you need to get lucky to find the secrets.") 
-#Second Choice Left Responses
 if choiceleft.lower()=="grab":
-            choicegrab=input("A")
+            choicegrab=input('You grab some food, and run as fast as you can, as you do, you hear a louder sound behind you, and a deep voice shout "PUT THAT BACK!". Do you TURN around, keep RUNNING, or EAT the food as fast as you can?')
+if choicegrab.lower()=="eat":
+      choiceeat=input("Strudel")
+if choicegrab.lower()=="turn":
+      running.lower()=="running"
+if choicegrab.lower()=="running":
+
 elif choiceleft.lower()=="look":
             choicelook=input("B")
 elif choiceleft.lower()=="eating":
             choiceeating=input("C")
 else: 
       print("I'm sorry, but that wasn't one of the designed options, please type in one of the words that are in all caps, or maybe you might get lucky in picking something not in caps, who knows? But seriously, just pick one of the all caps words, you need to get lucky to find the secrets.") 
+input("Click Enter to End the Program")
