@@ -2,6 +2,13 @@ choiceleft=""
 choicegrab=""
 choicestairs=""
 choiceeating=""
+runningaway=""
+choicerun=""
+choiceeat=""
+choiceright=""
+pet=""
+drink=""
+tackle=""
 
 
 
@@ -12,7 +19,16 @@ if choiceone.lower()=="left":
 elif choiceone.lower()=="stairs":
     choicestairs=input("You stand up, gathering yourself, and begin to move your way up the stairs, as you do, the boards creak beneath your feet. About midway up, a cold wind blows through a broken window, which chills you to the bone. As you look up to the window, you see something else blew in as well. A large bat, flies in, shrieking and screaming. Do you try to FIGHT the bat, do you RUN away, or do you EVADE the bat, and keep climbing the stairs?")
 elif choiceone.lower()=="right":
-    choiceright=input("You choose the right door")
+    choiceright=input("You choose the right door. It leads outside to a large courtyard. In the center of the courtyard is a large, old fountain, spewing water. As you get closer, you notice the subsatance is thicker than water, but just as clear. As you peer into the substance you see a massive toad resting underwater, in the bottom of the fountain. Do you DRINK some of the liquid, or PET the frog?")
+if choiceright.lower()=="pet":
+         pet=input("You reach out to pet the frog, and it jumps out at you, lashing its tongue. Do you TACKLE it, or try to DODGE?")
+if pet.lower()=="tackle":
+         print("You tackle the toad as it leaps at you, but as you do so, the toad opens its mouth as wide as it can. Unable to alter your course now that you've left the ground, you slide right into his stomach, and the toad has lunch thanks to you. Sorry, you lose.")
+
+if pet.lower()=="dodge":
+              print("You successfully dodge out of the way of the toad, but in so doing, you fall into the water. Soaked in it now, you feel yourself shrinking. Getting smaller and smaller, until the toad towers over you, licking its lips. Looks like your time is up. Sorry, you lose.")
+if choiceright.lower()=="drink":
+         drink=input("Careful not to bother the toad, you scoop up the liquid in your cupped hands, and drink it. Your vision begins to blur, and as you look down at yourself, you don't see yourself. You've become invisible! As you walk throughout the courtyard, you come to what looks like an exit, but there's a guard patrolling the exit. Do you try to SNEAK past him, TRICK him, or TALK to him?")
 elif choiceone.lower() in("leave","double doors","doors"):
     secondchoice=input("You try the double doors, and notice they are unlocked. You open them to find an exit to the mansion. You leave, and by the light of the moon, manage to find your way home without any further incedent.")
 
@@ -28,13 +44,16 @@ if choiceleft.lower()=="grab":
 if choicegrab.lower()=="eat":
       choiceeat=input("Strudel")
 if choicegrab.lower()=="turn":
-      running.lower()=="running"
-if choicegrab.lower()=="running":
+      print("Hello")
+if choicegrab.lower()=="running": 
+      runningaway=input("Hi")
 
 elif choiceleft.lower()=="look":
-            choicelook=input("B")
+    choicelook=input("sadf")
 elif choiceleft.lower()=="eating":
-            choiceeating=input("C")
+    choiceeating=input("C")
 else: 
-      print("I'm sorry, but that wasn't one of the designed options, please type in one of the words that are in all caps, or maybe you might get lucky in picking something not in caps, who knows? But seriously, just pick one of the all caps words, you need to get lucky to find the secrets.") 
+    print("I'm sorry, but that wasn't one of the designed options, please type in one of the words that are in all caps, or maybe you might get lucky in picking something not in caps, who knows? But seriously, just pick one of the all caps words, you need to get lucky to find the secrets.") 
+
+
 input("Click Enter to End the Program")
