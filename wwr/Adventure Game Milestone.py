@@ -29,6 +29,12 @@ if pet.lower()=="dodge":
               print("You successfully dodge out of the way of the toad, but in so doing, you fall into the water. Soaked in it now, you feel yourself shrinking. Getting smaller and smaller, until the toad towers over you, licking its lips. Looks like your time is up. Sorry, you lose.")
 if choiceright.lower()=="drink":
          drink=input("Careful not to bother the toad, you scoop up the liquid in your cupped hands, and drink it. Your vision begins to blur, and as you look down at yourself, you don't see yourself. You've become invisible! As you walk throughout the courtyard, you come to what looks like an exit, but there's a guard patrolling the exit. Do you try to SNEAK past him, TRICK him, or TALK to him?")
+if drink.lower()=="talk":
+      print('You walk up to the guard, and say hi. The guard is spooked, and looks around to find the source of the voice. "I am right here!", you say, tapping the guard on the shoulder. The guard notices you and says, "What are you?" "That does not really matter," you say, "I just want to go home, can you let me out?" The guard ponders this for a while, before conceding, "I guess" he says, before moving to the side and letting you out. You run as fast as you can out of the mansion'+"'s grounds. You've made it out! You WON!")
+if drink.lower()=="trick":
+      print("")
+if drink.lower()=="sneak":
+      print("")
 elif choiceone.lower() in("leave","double doors","doors"):
     secondchoice=input("You try the double doors, and notice they are unlocked. You open them to find an exit to the mansion. You leave, and by the light of the moon, manage to find your way home without any further incedent.")
 
@@ -52,6 +58,7 @@ elif choiceleft.lower()=="look":
     choicelook=input("sadf")
 elif choiceleft.lower()=="eating":
     choiceeating=input("C")
+
 else: 
     print("I'm sorry, but that wasn't one of the designed options, please type in one of the words that are in all caps, or maybe you might get lucky in picking something not in caps, who knows? But seriously, just pick one of the all caps words, you need to get lucky to find the secrets.") 
 
