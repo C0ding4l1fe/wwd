@@ -21,8 +21,10 @@ elif choiceone.lower()=="stairs":
 elif choiceone.lower()=="right":
     choiceright=input("You choose the right door. It leads outside to a large courtyard. In the center of the courtyard is a large, old fountain, spewing water. As you get closer, you notice the subsatance is thicker than water, but just as clear. As you peer into the substance you see a massive toad resting underwater, in the bottom of the fountain. Do you DRINK some of the liquid, or PET the frog?")  
 elif choiceone.lower() in("leave","double doors","doors"):
-    secondchoice=input("You try the double doors, and notice they are unlocked. You open them to find an exit to the mansion. You leave, and by the light of the moon, manage to find your way home without any further incedent.")
-
+    secondchoice=input("You try the double doors, and notice they are unlocked. You open them to find an exit to the mansion. You leave, and by the light of the moon, manage to find your way home without any further incedent. You have WON! And you found the secret ending!")
+    end=input("Click Enter to End the Program")
+    if end=="": quit()
+    else: quit()
     #Second Choice Responses
 if choicestairs.lower()=="run":
     choicerun=input("Hassen")
