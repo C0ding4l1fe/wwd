@@ -74,7 +74,14 @@ elif choiceleft.lower()=="grab":
       if end=="": quit()
       else: quit()
     if choicegrab.lower()=="turn":
-      print("Hello")
+      turn=input("You turn around to see whatever voice gave you the command. Standing behind you is a tall knight, with black flames wreathing around its armor. You can'"'t see its eyes through the helmet. Again, the knight shouts, "I said, PUT THAT BACK!" Do you PUT THE FOOD BACK on the table, or EAT it as quickly as possible ')
+      if turn.lower()=="put the food back":
+        input("You decide to put the food back, and the knight simply nods contentedly, before vanishing in a puff of smoke. Now alone in the room, you decide there's not really anything you can do in this room, if you're not allowed to eat anything. You move back into the main room. Do you want to go RIGHT or up the STAIRS?")
+      if turn.lower()=="eat":
+        input('"Yeah right!" you say, before scarfing down the food. The knight begins to laugh a deep and gutteral laugh, as he points his finger at you. Your whole body feels very cold all of the sudden, as you realize that you'"'re literally turning to ice. You try to move, to do anything, but to no avail, in mere moments, your no more than an ice sculpture. You shouldn't have eaten that food. YOU'VE LOST!")
+        end=input("Click Enter to End the Program")
+        if end=="": quit()
+        else: quit()
     if choicegrab.lower()=="running": 
       runningaway=input("You continue to run, ignoring whatever had called out to you. You manage to make it to the doorway, but as you cross the threshold you are hit in the back by something, hard. As you stand back up, you see your feet turn to stone. The stone creeps higher and higher, until your nothing but a statue, standing in the doorway. sorry, but YOU'VE LOST!")
       end=input("Click Enter to End the Program")
