@@ -48,7 +48,7 @@ elif choiceleft.lower()=="look":
         input('You decide to lie. You say you thought the food was for you, and that you are insulted by his accusations. You try to pull the "Do you know who I am!?" card, but nothing seems to be working. The man seems to get angrier with every word you say, until eventually, he silences you, and says with a snarl, "I am the lord of this castle, and you will stay here, until you learn respect, you vile thief!" The man stood up, walks behind you. You hear a thud and a locking mechanism. He seems to have left you trapped in here, with no means of escape. I'"'m sorry, you've LOST!")
         end=input("Click Enter to End the Program")
         if end=="": quit()
-        else: quit()")
+        else: quit()
     
     
     
