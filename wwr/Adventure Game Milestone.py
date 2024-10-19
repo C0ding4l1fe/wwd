@@ -11,8 +11,10 @@ drink=""
 tackle=""
 eating=""
 follow=""
-
-
+wiggle=""
+wiggle=""
+talk=""
+chances=""
 choiceone=input("You wake up feeling very groggy, with a splitting headache and blurry vision. As it clears, you find yourself within a dimly lit mansion. Its the middle of the night, and you hear sounds of a storm outside. The mansion is eerily silent, with only a dozen candles to light your view. You seem to be in the entry room of the mansion, with a staircase leading to a second floor, a door to the right and left, and a set of double doors on the far wall. Do you go up the STAIRS, to the LEFT, or to the RIGHT?")
 #First Choice Responses
 if choiceone.lower()=="left":
@@ -28,12 +30,34 @@ elif choiceone.lower() in("leave","double doors","doors"):
     else: quit()
 #Stairs Choice Responses
 if choicestairs.lower()=="run":
-    choicerun=input("Hassen")
+    choicerun=input("You decide to run from the bat, but as you do, it swoops down, and grabs you with its claws. Carrying you high above the floor, and out the window. The brisk night air cuts at you from all sides, as the mighty beast's wings flap above you. After flying a while, you wonder why it hasn't eaten you yet. For a brief moment, the bat gets low to the ground, as it tires. Do you WAIT, or try to WIGGLE free?")
+    if choicerun.lower()=="wiggle":
+        wiggle=input("You decide to risk it and try to wiggle out of the bat's grasp. You do manage this, falling into the woods below. You hit the ground at the top of a tall hill, and begin to roll from the momentum. rolling faster and faster, you reach the bottom. Of a pit. At the bottom of the hill there was a ditch, a pit, that you fell in. You're not sure if it was naturally made or man made, but it doesn't matter, you're stuck, its so dark, and the pit is too deep and steep to get out. You'll have to wait for someone to help you out. I'm sorry, YOU'VE LOST!")
+        end=input("Click Enter to End the Program")
+        if end=="": quit()
+        else: quit()
+    if choicerun.lower()=="wait":
+        wait=input("You decide to wait, after all, the bat hasn't hurt you yet, he could be friendly. He flies you to a large cave in the side of a distant mountain, its very late at your arrival, and you're completely exhausted. You hear a scuttling sound, as little bats move their way towards you. The bat had brought you to its children. You fall asleep as the sun is beginning to rise, completely enfeebled by the long trip. Little did you know, that was the point. The bat needed some breakfast for its babies, and you did nicely. I'm sorry, You've LOST!")
+        end=input("Click Enter to End the Program")
+        if end=="": quit()
+        else: quit()
 elif choicestairs.lower()=="fight":
-    choicefight=input("Pie")
+    choicefight=input("You decide to face the beast, charging at it letting out a battle cry. You don't care that you're unarmed, you're taking this thing down! As you draw near, the beast bears its teeth, sharp and jagged, before leaping into the air, and pouncing back down, pinning you to the floor. The bat licks its black lips as it looks down at you. Its dinnertime. I'm sorry, but YOU'VE LOST!")
+    end=input("Click Enter to End the Program")
+    if end=="": quit()
+    else: quit()
 elif choicestairs.lower()=="evade":
-    choiceevade=input("Racked")
-
+    choiceevade=input('You duck and weave around the bat, and manage to get past it. Rushing to the door at the top of the stairs, you throw it open and leap through before slamming it shut behind you. Moments later, the bat crashes into the closed door, knocking you onto the floor. You managed to escape the bat and find yourself in a bedroom of sorts, with only the moonlight shining through the window to illuminate the scene. In a large bed in the center of the room lies a very pale man, deathly pale. With a bolt, the man rises, and stands to his feet, awakened by the bat'"'s thud against the door. He'"'s dressed in a black cloak, and as he approaches you, you, an overwhelming unpleasantness washes over you. Something about this man isn'"'t right. Do you take your CHANCES with the bat, or TALK to the man?")
+    if choiceevade.lower()=="chances":
+        chances=input('You decide to take your chances with the bat rather than the creepy guy, opening the door. The bat rears its head, to strike at you, and you hold up your arm in defense. The strike never comes however. You see a bolt of red light, shoot from the man'"'s fingertips, wizzes over your head, and strikes the bat in the chest, with a wimper, it falls back, onto the banister, and then off the railing down to the first floor, landing with a mighty thud! The man saved you! You turn back to thank him and he's gone, leaving only a note behind. It reads:"'" In entering this room, and awakening me, you have agreed to be keeper of this castle for all eternity, or until a replacement can be found for you. I have been waiting 10,000 years to die. Thank you for setting me free. Good luck!" "Well, imortality and a mansion isn'"'t so bad"", you think to yourself. Better go tell your family! YOU'VE WON! Kind of...")
+        end=input("Click Enter to End the Program")
+        if end=="": quit()
+        else: quit()
+    if choiceevade.lower()=="talk":
+        talk=input("You decide to talk to the man, he can't be that bad after all."'"I hunger." He says quietly as he approaches you. Okay, maybe he is that bad. You try to open the door. The man quickly snaps his finger and the door is locked.'" You'e trapped in here with this maniac. The man gets closer and closer, revealing his fangs. He's a vampire, and he's hungry. And worse yet, it looks like you're on the menu! Maybe taking your chances with the bat would've been better after all! I'm sorry, YOU'VE LOST!")
+        end=input("Click Enter to End the Program")
+        if end=="": quit()
+        else: quit()
 #Left Choice Responses
 elif choiceleft.lower()=="look":
     choicelook=input("You look under the table to see a woman in armor, climbing down a pit under the table. She doesn't notice you as he leaves to who knows where. Do you FOLLOW her, or IGNORE her?")
@@ -105,33 +129,35 @@ elif choiceleft.lower()=="eating":
 
 
 #Right Path Choices
-if pet.lower()=="tackle":
-         input("You tackle the toad as it leaps at you, but as you do so, the toad opens its mouth as wide as it can. Unable to alter your course now that you've left the ground, you slide right into his stomach, and the toad has lunch thanks to you. Sorry, you lose.")
-         end=input("Click Enter to End the Program")
-         if end=="": quit()
-         else: quit()
-if pet.lower()=="dodge":
-        input("You successfully dodge out of the way of the toad, but in so doing, you fall into the water. Soaked in it now, you feel yourself shrinking. Getting smaller and smaller, until the toad towers over you, licking its lips. Looks like your time is up. Sorry, you lose.")
-        end=input("Click Enter to End the Program")
-        if end=="": quit()
-        else: quit()
 if choiceright.lower()=="drink":
-         drink=input("Careful not to bother the toad, you scoop up the liquid in your cupped hands, and drink it. Your vision begins to blur, and as you look down at yourself, you don't see yourself. You've become invisible! As you walk throughout the courtyard, you come to what looks like an exit, but there's a guard patrolling the exit. Do you try to SNEAK past him, TRICK him, or TALK to him?")
-if drink.lower()=="talk":
+    drink=input("Careful not to bother the toad, you scoop up the liquid in your cupped hands, and drink it. Your vision begins to blur, and as you look down at yourself, you don't see yourself. You've become invisible! As you walk throughout the courtyard, you come to what looks like an exit, but there's a guard patrolling the exit. Do you try to SNEAK past him, TRICK him, or TALK to him?")
+    if drink.lower()=="talk":
       input('You walk up to the guard, and say hi. The guard is spooked, and looks around to find the source of the voice. "I am right here!", you say, tapping the guard on the shoulder. The guard notices you and says, "What are you?" "That does not really matter," you say, "I just want to go home, can you let me out?" The guard ponders this for a while, before conceding, "I guess" he says, before moving to the side and letting you out. You run as fast as you can out of the mansion'+"'s grounds. You've made it out! You WON!")
       end=input("Click Enter to End the Program")
       if end=="": quit()
       else: quit()
-if drink.lower()=="trick":
+    if drink.lower()=="trick":
       input("You decide to trick the guard, and stealthily pick up a stone, while outside the guard's view. you throw the rock, as hard as you can. It makes a loud clatter as it falls, alerting the guard. He leaves his post to go investigate the sound. While he's gone, you run as fast as you can, and you make it out. You're free! You've WON!")
       end=input("Click Enter to End the Program")
       if end=="": quit()
       else: quit()
-if drink.lower()=="sneak":
-    input("You decide you want to sneak past the guard. You make yourself as thin as possible, and attempt to sqeeze past him. Unfortunately, the guard rests his hand on the wall, or rather, what he thought was a wall. He really put his hand on your face! Feeling an invisible being, the guard is shocked, and swings his sword wildly, afraid that whatever he grabbed was dangerous. He didn't know that he was really ending any chance you had of escape. You've LOST, sorry.")
-    end=input("Click Enter to End the Program")
-    if end=="": quit()
-    else: quit()
+    if drink.lower()=="sneak":
+        input("You decide you want to sneak past the guard. You make yourself as thin as possible, and attempt to sqeeze past him. Unfortunately, the guard rests his hand on the wall, or rather, what he thought was a wall. He really put his hand on your face! Feeling an invisible being, the guard is shocked, and swings his sword wildly, afraid that whatever he grabbed was dangerous. He didn't know that he was really ending any chance you had of escape. You've LOST, sorry.")
+        end=input("Click Enter to End the Program")
+        if end=="": quit()
+        else: quit()
+if choiceright.lower()=="pet":
+    pet=input("You cautiously lean over the fountain, and reach into the liquid to pet the toad. As soon as you touch it however, the frog looks at you eagerly, before bounding out at you! Do you want to TACKLE it, or DODGE out of the way?")
+    if pet.lower()=="tackle":
+         input("You tackle the toad as it leaps at you, but as you do so, the toad opens its mouth as wide as it can. Unable to alter your course now that you've left the ground, you slide right into his stomach, and the toad has lunch thanks to you. Sorry, you lose.")
+         end=input("Click Enter to End the Program")
+         if end=="": quit()
+         else: quit()
+    if pet.lower()=="dodge":
+        input("You successfully dodge out of the way of the toad, but in so doing, you fall into the water. Soaked in it now, you feel yourself shrinking. Getting smaller and smaller, until the toad towers over you, licking its lips. Looks like your time is up. Sorry, you lose.")
+        end=input("Click Enter to End the Program")
+        if end=="": quit()
+        else: quit()
 else: 
     print("I'm sorry, but that wasn't one of the designed options, please type in one of the words that are in all caps, or maybe you might get lucky in picking something not in caps, who knows? But seriously, just pick one of the all caps words, you need to get lucky to find the secrets.") 
 
