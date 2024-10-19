@@ -42,10 +42,17 @@ if choicestairs.lower()=="run":
         if end=="": quit()
         else: quit()
 elif choicestairs.lower()=="fight":
-    print("You decide to face the beast, charging at it letting out a battle cry. You don't care that you're unarmed, you're taking this thing down! As you draw near, the beast bears its teeth, sharp and jagged, before leaping into the air, and pouncing back down, pinning you to the floor. The bat licks its black lips as it looks down at you. Its dinnertime. I'm sorry, but YOU'VE LOST!")
-    end=input("Click Enter to End the Program")
-    if end=="": quit()
-    else: quit()
+    fight=input("You decide to face the beast, charging at it letting out a battle cry. You don't care that you're unarmed, you're taking this thing down! As you draw near, the beast bears its teeth, sharp and jagged, before leaping into the air, and pouncing back down, pinning you to the floor. The bat licks its black lips as it looks down at you. Its dinnertime. Do you try to SHOVE it off, or BEG for mercy?")
+    if fight.lower()=="beg":
+        print("You plead with the beast to spare you. You try to appeal to its better judgement, but you realize it can't understand you. It's a bat after all. What were you thinking? Well not much now... I'm sorry, YOU'VE LOST!")
+        end=input("Click Enter to End the Program")
+        if end=="": quit()
+        else: quit()
+    if fight.lower()=="shove":
+        print("You try to use your strength to shove the beast off of you, but its too big. Its huge, its massive. Its immovable, there's no use. You're too tired, you're too weak, and in a soon, you'd be too dead. I'm sorry, YOU'VE LOST!")
+        end=input("Click Enter to End the Program")
+        if end=="": quit()
+        else: quit()
 elif choicestairs.lower()=="evade":
     choiceevade=input('You duck and weave around the bat, and manage to get past it. Rushing to the door at the top of the stairs, you throw it open and leap through before slamming it shut behind you. Moments later, the bat crashes into the closed door, knocking you onto the floor. You managed to escape the bat and find yourself in a bedroom of sorts, with only the moonlight shining through the window to illuminate the scene. In a large bed in the center of the room lies a very pale man, deathly pale. With a bolt, the man rises, and stands to his feet, awakened by the bat'"'s thud against the door. He'"'s dressed in a black cloak, and as he approaches you, you, an overwhelming unpleasantness washes over you. Something about this man isn'"'t right. Do you take your CHANCES with the bat, or TALK to the man?")
     if choiceevade.lower()=="chances":
