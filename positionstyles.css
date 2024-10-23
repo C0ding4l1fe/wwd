@@ -66,6 +66,7 @@
 /* Activity 3 styles */ 
 .content3{
   /* This is the parent of the activity 3 boxes. */
+  position:absolute
 }
 .red3 {
   width: 100px; 
@@ -142,6 +143,7 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  position:absolute
 }
 .red6 {
   width: 100px; 
