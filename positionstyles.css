@@ -45,16 +45,22 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  nav-left: 50px;
+  nav-up:50px
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  nav-left: 100px;
+  nav-up:50px
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  nav-left: 150px;
+  nav-up:50px
 } 
 /* Activity 3 styles */ 
 .content3 {
