@@ -105,7 +105,7 @@
     height: 400px;
     display: grid;
   grid-template-columns: 300px 300px;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px 0px;
   }
   .red4 {
   width: 300px; 
