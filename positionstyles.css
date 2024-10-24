@@ -48,18 +48,22 @@ background-color: red;
 width: 100px; 
 height: 100px; 
 background-color: green; 
+margin-top: 50px;
 
 } 
 .yellow2 {
 width: 100px; 
 height: 100px; 
 background-color: gold; 
+margin-top: 100px;
+
 
 } 
 .blue2 {
 width: 100px; 
 height: 100px; 
 background-color: blue; 
+margin-top: 150px;
 
 } 
 /* Activity 3 styles */ 
