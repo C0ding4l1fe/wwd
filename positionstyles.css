@@ -103,6 +103,7 @@ background-color: blue;
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
+  position: absolute;
 }
 .red4 {
 width: 50%; 
