@@ -153,7 +153,7 @@ grid-row: 2/3;
   width: 200px; 
   height: 200px; 
   background-color: green; 
-  
+  float: left;
   } 
   .yellow5 {
   width: 100%; 
