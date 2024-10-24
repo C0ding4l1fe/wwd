@@ -82,12 +82,13 @@
   } 
   .green3 {
   width: 800px; 
-  height: 100px; 
+  height: 200px; 
   background-color: green;
+  grid-column-start: 1;
   } 
   .yellow3 {
   width: 800px; 
-  height: 100px; 
+  height: 200px; 
   background-color: gold;
   grid-column-start: 2;
   } 
