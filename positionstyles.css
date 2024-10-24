@@ -45,20 +45,22 @@ background-color: red;
 width: 100px; 
 height: 100px; 
 background-color: green; 
-margin-right: 50;
-margin-top: 50;
+margin-right: 50px;
+margin-top: 50px;
 } 
 .yellow2 {
 width: 100px; 
 height: 100px; 
 background-color: gold; 
-margin-right: 100;
-margin-top: 50;
+margin-right: 100px;
+margin-top: 50px;
 } 
 .blue2 {
 width: 100px; 
-height: 150px; 
+height: 100px; 
 background-color: blue; 
+margin-right: 150;
+margin-top: 50;
 } 
 /* Activity 3 styles */ 
 .content3 {
