@@ -160,6 +160,7 @@ grid-row: 2/3;
   height: 200px; 
   background-color: gold; 
   float: left;
+  margin-top: -200px;
   
   } 
   .blue5 {
