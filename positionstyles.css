@@ -156,8 +156,8 @@ grid-row: 2/3;
   
   } 
   .yellow5 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: 300px; 
   background-color: gold; 
   
   } 
