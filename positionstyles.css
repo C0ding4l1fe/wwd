@@ -111,23 +111,17 @@ height: 100%;
 background-color: red; 
 } 
 .green4 {
-top: 100%;
-right: 100%;
 width: 50%; 
 height: 100px; 
 background-color: green; 
 
 } 
 .yellow4 {
-top: 100%;
-right: 100%;
 width: 50%; 
 height: 100px; 
 background-color: gold; 
 } 
 .blue4 {
-top: 100%;
-right: 100%;
 width: 50%; 
 height: 100px; 
 background-color: blue; 
