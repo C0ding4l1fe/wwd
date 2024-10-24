@@ -81,15 +81,11 @@ height: 100px;
 background-color: red; 
 } 
 .green3 {
-top:50%;
-
 width: 500px; 
 height: 100px; 
 background-color: green;
 } 
 .yellow3 {
-top:50%;
-right:100%;
 width: 500px; 
 height: 100px; 
 background-color: gold; 
