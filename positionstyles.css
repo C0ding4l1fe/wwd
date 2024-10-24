@@ -71,7 +71,7 @@
     display: grid;
     grid-template-columns:1fr 1fr;
     grid-column-gap:20px;
-    grid-column:1fr;
+    grid-column:
   
   }
   .red3 {
@@ -100,7 +100,6 @@
   .content4 {
     /* This is the parent of the activity 4 boxes. */
     height: 400px;
-    position: absolute;
   }
   .red4 {
   width: 150px; 
