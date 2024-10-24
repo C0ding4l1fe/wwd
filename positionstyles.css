@@ -106,23 +106,23 @@ background-color: blue;
   position: absolute;
 }
 .red4 {
-width: 50%; 
-height: 100%; 
+width: 100px; 
+height: 100px; 
 background-color: red; 
 } 
 .green4 {
-width: 50%; 
+width: 100px; 
 height: 100px; 
 background-color: green; 
 
 } 
 .yellow4 {
-width: 50%; 
+width: 100px; 
 height: 100px; 
 background-color: gold; 
 } 
 .blue4 {
-width: 50%; 
+width: 100px; 
 height: 100px; 
 background-color: blue; 
 } 
