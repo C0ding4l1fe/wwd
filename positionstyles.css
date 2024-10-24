@@ -70,7 +70,7 @@ margin-top: 150px;
   /* This is the parent of the activity 3 boxes. */
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px;
-  grid-column-gap:200px;
+  grid-column-gap:20px;
   grid-column:50px 50px 50px 50px 50px
 }
 .red3 {
