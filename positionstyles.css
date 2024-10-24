@@ -71,7 +71,9 @@ margin-top: 150px;
   display: grid;
   grid-template-columns:1fr;
   grid-column-gap:20px;
-  grid-column:1fr
+  grid-column:1fr;
+  position:absolute;
+
 }
 .red3 {
 width: 100%; 
