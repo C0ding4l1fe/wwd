@@ -4,7 +4,7 @@
 --paragraph-font: "Lato", Helvetica, sans-serif;
 
 }
-.home-grid{display: grid;grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;}
+.home-grid{display: grid;grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
 nav {
     display: flex;
     justify-content: space-around;
