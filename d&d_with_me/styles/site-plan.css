@@ -5,6 +5,8 @@ Fonts are separated by a | */
 @font-face {
   font-family: "Monstalk";
   src: url(Monstalk.ttf);
+  font-family: "Baskerville";
+  src: url(Baskervville-Regular.ttf);
 }
 
 :root {
