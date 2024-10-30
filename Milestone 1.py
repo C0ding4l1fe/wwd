@@ -11,7 +11,7 @@ def convert_letter(secret_word):
             underscores = underscores.replace(secret_word[i], '_ ')
 convert_letter(secret_word)
 print("Welcome to the guessing game!")
-guess=input("Please make your guess!:"+underscores)
+guess=input("Please make your guess!:_ _ _ _ _")
 count = 0
 while not guess.lower() =="alma":
         print("I'm sorry, but that's incorrect, please guess again!")
