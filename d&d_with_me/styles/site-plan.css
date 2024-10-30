@@ -5,10 +5,12 @@ Fonts are separated by a | */
 @font-face {
   font-family: "Monstalk";
   src: url(Monstalk.ttf);
+
+}
+@font-face {
   font-family: "Baskerville";
   src: url(Baskervville-Regular.ttf);
 }
-
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #D52121   ;
