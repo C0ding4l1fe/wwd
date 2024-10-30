@@ -8,6 +8,13 @@ print(f"You tried {count+1} times!")
 
 
 print(f"The number is {number}!")
+animal = "dog"
+while animal == "dog":
+   print("a")
+   animal = "cat"
+   print("b")
+print("c")
+
 candy=input("Can I have some candy?")
 while candy.lower()=="no":
     candy=input("Can I have some candy?")
