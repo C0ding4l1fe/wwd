@@ -30,7 +30,7 @@ Fonts are separated by a | */
   --paragraph-background-color: #D52121  ;
   --nav-link-color: #966B9D;
   --nav-background-color: #F4D35E;
-  --nav-hover-link-color: #ffffff;
+  --nav-hover-link-color: white;
   --nav-hover-background-color: #130a7d;
 }
 
