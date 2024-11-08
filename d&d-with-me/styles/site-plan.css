@@ -149,17 +149,17 @@ nav a:hover {
   text-align: center;
 
 }
-.sm-home {
+.sm-welcome-to-dnd-with-me {
   grid-area: home;
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page2 {
+.sm-dungeon-master-sign-up {
   grid-area: page2;
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page3 {
+.sm-dungeon-master-hiring{
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
