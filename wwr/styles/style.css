@@ -121,9 +121,9 @@ h2 {
 #river-msg h1, #river-msg h4 {text-align: center;}
 .river-title {
   font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-  font-size: 2em;margin-top: 100px;
+  font-size: 3em;margin-top: 100px;
 }
-#river-msg h4{color:#C6BF08;}
+#river-msg h4{color:#C6BF08;font-size: 1.5em;}
 #river-img{
   width: 100%;margin: 0 auto;z-index: -1;
 }
