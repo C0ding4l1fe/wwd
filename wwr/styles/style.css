@@ -115,7 +115,7 @@ h2 {
 /*Page 2 CSS*/
 
 .river-locations-grid {display: grid;grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
-.river-title {
+.river-title {text-align: center;
   font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
   font-size: 2em;margin-top: 10px;
 }
