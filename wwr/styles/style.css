@@ -125,7 +125,7 @@ h2 {
 }
 #river-msg h4{color:#C6BF08;font-size: 1.5em;}
 #river-img{
-  width: 100%;margin: 0 auto;z-index: -1;
+  width: 100%;margin: 0 auto;
 }
 #river-image{grid-column: 1/4;
   grid-row: 1/3;z-index:-1;}
