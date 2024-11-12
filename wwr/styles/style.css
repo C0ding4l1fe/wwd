@@ -116,7 +116,7 @@ h2 {
 #river-top{  display: grid;
   grid-template-columns: 1fr 3fr 1fr;    margin-top: -100px; 
 }
-#river-msg{grid-column: 2/3;grid-row: 3/4;margin-top: 100px;z-index: 0;}
+#river-msg{grid-column: 2/3;grid-row: 2/3;margin-top: 100px;z-index: 0;}
 
 #river-msg h1, #river-msg h4 {text-align: center;}
 .river-title {
