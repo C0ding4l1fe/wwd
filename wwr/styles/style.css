@@ -119,6 +119,10 @@ h2 {
 #river-msg{grid-column: 2/3;grid-row: 1/2;margin-top: 100px;z-index: 0;}
 
 #river-msg h1, #river-msg h4 {text-align: center;}
+.river-title {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;margin-top: 10px;
+}
 #river-msg h4{color:#C6BF08;}
 #river-img{
   width: 100%;margin: 0 auto;z-index: -1;
