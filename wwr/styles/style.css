@@ -111,7 +111,10 @@ h2 {
 }
 .mountains{grid-column: 2/7;grid-row: 5/8;    box-shadow: 5px 5px 10px #6f7364;
 }
-
+.river-title {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;margin-top: 10px;font-size: 25px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
