@@ -132,9 +132,9 @@ h2 {
 
 .river-locations-grid {display: grid;grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
 .idaho-location, .utah-location, .arizona-location  {margin: 200px 0;}
-.idaho-location{  box-shadow: 5px 5px 10px #6f7364; background-color: #C6BF08;color:black ;  line-height: 1.5em;font-size: 35px; grid-column: 2/4;grid-row: 3/9;}
-.utah-location{  box-shadow: 5px 5px 10px #6f7364; background-color: #C6BF08;color:black ;  line-height: 1.5em;font-size: 35px; grid-column: 5/7;grid-row: 3/9;}
-.arizona-location{  box-shadow: 5px 5px 10px #6f7364; background-color: #C6BF08;color:black ;  line-height: 1.5em;font-size: 35px; grid-column: 8/10;grid-row: 3/9;}
+.idaho-location{  box-shadow: 5px 5px 10px #6f7364; background-color: #C6BF08;color:black ;  line-height: 1.5em;font-size: 35px; grid-column: 2/4;grid-row: 3/10;}
+.utah-location{  box-shadow: 5px 5px 10px #6f7364; background-color: #C6BF08;color:black ;  line-height: 1.5em;font-size: 35px; grid-column: 4/6;grid-row: 3/10;}
+.arizona-location{  box-shadow: 5px 5px 10px #6f7364; background-color: #C6BF08;color:black ;  line-height: 1.5em;font-size: 35px; grid-column: 6/9;grid-row: 3/10;}
 .paragraph-image{
   border: 10px solid #d9c2a3; border: 10px solid #d9c2a3;
   transition: transform .5s;
