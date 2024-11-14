@@ -7,6 +7,7 @@ price_list=[]
 shopping_list=[add]
 shopping_list.remove("")
 real_total=0
+price=0
 
 print("Hello! Welcome to the digital shopping cart!")
 while choice!=5:
@@ -19,8 +20,10 @@ while choice!=5:
   choice=int(input("Please input your choice, by the number:"))
   if choice==1:
     add=input("What would you like to add?:")
-    price=float(round(input("What's the price of that item?:")),2)
+    price_ask=float(input("What's the price of that item?:"))
+    price==float(round(price_ask,2))
     price_list.append(price)
+    print(price_list)
     shopping_list.append(add)
     print(f"Alright! '{add.capitalize()}' has been added to your shopping list!")
     time.sleep(1)
