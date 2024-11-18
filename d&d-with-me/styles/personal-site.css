@@ -1,0 +1,10 @@
+nav {
+  display: flex;
+  justify-content: space-around;background-color: #F4D35E;
+}
+nav a {text-align: center;text-decoration: none;padding: 35px; color:#966B9D; background-color: #F4D35E;}
+nav a:hover {
+  background-color: #130a7d;color: white;
+}
+
+
