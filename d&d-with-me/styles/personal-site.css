@@ -11,15 +11,13 @@ header {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;;display: f
 .home-link a:hover,.nav-sign-up-link,.hiring-link,.nav-contact-link {
   background-color: #130a7d;color: white;
 }
-#nav-image:hover{border-style: solid;border-color: #130a7d; border-width:50px}
+#nav-logo:hover{border-style: solid;border-color: #130a7d; border-width:50px}
 
 
 
 
 
-#logo_link {padding-top: 5px; 
-  justify-self: center;
-  align-self: center;}
+
 img.logo {
     width: 80px; height: 80px; margin: 0 auto;}
 body { display: grid;
