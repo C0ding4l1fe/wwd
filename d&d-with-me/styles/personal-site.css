@@ -37,7 +37,7 @@ footer {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;margin-top:
   align-items: center;}
 footer .social img{padding-top: 15px;}
 footer a{color: #966B9D;text-decoration: none;}
-footer a:hover{color: #056070;text-decoration: none;}
+footer a:hover{background-color: #130a7d;text-decoration: none;color: white;}
 footer p {
   font-size: 1.5em;
 }
