@@ -1,6 +1,6 @@
 nav {
-  display: flex;
-  justify-content: space-around;background-color: #F4D35E;align-items: center;
+  display: flex; 
+  justify-content: space-between;background-color: #F4D35E;align-items: center; transition: all 0.3s ease 0s;
 }
 nav a {text-align: center;text-decoration: none;padding: 35px; color:#966B9D; background-color: #F4D35E;}
 nav a:hover {
@@ -9,7 +9,7 @@ nav a:hover {
 .nav-home{  float: left;  text-align: center;
 padding: 35px;}
 header {
-  margin: auto;text-align: center;
+  margin: 0;text-align: center;
   background-color:#F4D35E;color:#966B9D ;
   font-family: "Monstalk", Arial, sans-serif;
   font-size: 18px;
