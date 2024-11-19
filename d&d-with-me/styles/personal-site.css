@@ -32,7 +32,7 @@ footer {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;margin-top:
   justify-content: space-around;
   align-items: center;}
 footer .social img{padding-top: 15px;}
-footer a{color: #07BADA;text-decoration: none;}
+footer a{color: #966B9D;text-decoration: none;}
 footer a:hover{color: #056070;text-decoration: none;}
 footer p {
   font-size: 1.5em;
@@ -40,4 +40,8 @@ footer p {
 
 footer p a:hover {
   text-decoration: underline;
-}    
+}
+.button-box,.button-box-2{background-color: #F4D35E;color: black ;text-decoration: none;
+  font-family:  "Rock Salt", Arial, sans-serif; font-size: 18px;padding: 15px 30px;    margin-top: 50px;
+border-radius: 5px;grid-row: 10;}
+.button-box:hover,.button-box-2:hover{background-color: #130a7d;color: white ;}
