@@ -26,7 +26,7 @@ body { display: grid;
       padding: 0;
   }
 .paragraph-heading {text-align: center;}
-.home-paragraph {text-align: left;}
+.home-paragraph {text-align: left;grid-column: 2/10;}
 .home-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
 footer {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;margin-top: 200px;display: flex;
   justify-content: space-around;
@@ -45,5 +45,5 @@ footer p a:hover {
   font-family:  "Rock Salt", Arial, sans-serif; font-size: 18px;padding: 15px 30px;    margin-top: 50px;
 border-radius: 5px;grid-row: 10;}
 .button-box:hover,.button-box-2:hover{background-color: #130a7d;color: white ;}
-.button-box{grid-column: 2/3;}
-.button-box-2{grid-column: 7/8;}
+.button-box{grid-column: 3/4;}
+.button-box-2{grid-column: 8/9;}
