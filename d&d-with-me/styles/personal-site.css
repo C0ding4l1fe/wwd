@@ -8,6 +8,14 @@ nav a:hover {
 }
 .nav-home{  float: left;  text-align: center;
 padding: 35px;grid-column: 1/5;}
+.nav-home-link{grid-column: 1;}
+.nav-sign-up-link{grid-column: 2;}
+.logo-link{grid-column: 3;}
+.hiring-link{grid-column: 4;}
+.nav-contact-link{grid-column: 5;}
+
+
+
 header {
   margin: 0;text-align: center;
   background-color:#F4D35E;color:#966B9D ;
