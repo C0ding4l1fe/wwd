@@ -58,5 +58,5 @@ border-radius: 5px;grid-row: 10;text-align: center;}
 .button-box{grid-column: 2;}
 .button-box-2{grid-column: 3;}
 .title{text-align: center;font-family: "Monstalk", Helvetica, sans-serif;}
-.paragraph-image{display:grid;grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
+.paragraph-image{display:grid;grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%; grid-column: 10;}
 .paragraph-logo{display:grid;grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;grid-column: 4/6;}
