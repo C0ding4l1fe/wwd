@@ -54,3 +54,4 @@ border-radius: 5px;grid-row: 10;}
 .nav-logo{grid-column: 5/6;}
 .nav-hiring{grid-column: 7/8;}
 .nav-contact{grid-column: 9/10;}
+.paragraph-image{align-items: right;}
