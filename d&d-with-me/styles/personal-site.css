@@ -41,7 +41,7 @@ footer p {
 footer p a:hover {
   text-decoration: underline;
 }
-.button-box,.button-box-2{background-color: #F4D35E;color: black ;text-decoration: none;
+.button-box,.button-box-2{background-color: #F4D35E;color: black ;text-decoration: none; width: 100px;
   font-family:  "Rock Salt", Arial, sans-serif; font-size: 18px;padding: 15px 30px;    margin-top: 50px;
 border-radius: 5px;grid-row: 10;}
 .button-box:hover,.button-box-2:hover{background-color: #130a7d;color: white ;}
