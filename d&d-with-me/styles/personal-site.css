@@ -1,13 +1,13 @@
 nav {
   display: flex; 
-  justify-content: space-between;background-color: #F4D35E;align-items: center; transition: all 0.3s ease 0s;
+  justify-content: space-around;background-color: #F4D35E;align-items: center;
 }
 nav a {text-align: center;text-decoration: none;padding: 35px; color:#966B9D; background-color: #F4D35E;}
 nav a:hover {
   background-color: #130a7d;color: white;
 }
 .nav-home{  float: left;  text-align: center;
-padding: 35px;}
+padding: 35px;grid-column: 1/5;}
 header {
   margin: 0;text-align: center;
   background-color:#F4D35E;color:#966B9D ;
@@ -16,7 +16,6 @@ header {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
-.nav-home{grid-column: 1/5;}
 
 #logo_link {padding-top: 5px; 
   justify-self: center;
