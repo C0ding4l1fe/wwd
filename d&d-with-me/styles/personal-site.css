@@ -12,7 +12,7 @@ header {
   font-family: "Monstalk", Arial, sans-serif;
   font-size: 18px;
   display: grid;
-  grid-template-columns: 40% auto;
+  grid-template-columns: 150px auto;
 }
 .nav-home{grid-column: 1;}
 .nav-sign-up{grid-column: 2;}
