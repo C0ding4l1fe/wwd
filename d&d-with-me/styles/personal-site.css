@@ -8,10 +8,10 @@ header {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;;display: f
   justify-content: space-around;background-color: #F4D35E;align-items: center;
 }
 .home-navigation a {text-align: center;text-decoration: none;padding: 35px; color:#966B9D; background-color: #F4D35E;}
-.home-link a:hover,.nav-sign-up-link,.hiring-link,.nav-contact-link {
+.nav-home-link a:hover,.nav-sign-up-link,.hiring-link,.nav-contact-link {
   background-color: #130a7d;color: white;
 }
-#nav-logo:hover{border-style: solid;border-color: #130a7d; border-width:50px}
+#nav-logo:hover{border-style: solid;border-color: #130a7d; border-width:30px}
 
 
 
