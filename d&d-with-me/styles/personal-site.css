@@ -2,28 +2,19 @@ nav {
   display: flex; 
   justify-content: space-around;background-color: #F4D35E;align-items: center;
 }
+header {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;margin-top: 200px;display: flex;
+  justify-content: space-around;
+  align-items: center; font-size: 18px;  font-family: "Monstalk", Arial, sans-serif;
+}
 nav a {text-align: center;text-decoration: none;padding: 35px; color:#966B9D; background-color: #F4D35E;}
 nav a:hover {
   background-color: #130a7d;color: white;
 }
-.nav-home{text-align: center;
-padding: 35px;grid-column: 1/5;}
-.nav-home-link{grid-column: 1;}
-.nav-sign-up-link{grid-column: 2;}
-.logo-link{grid-column: 3;}
-.hiring-link{grid-column: 4;}
-.nav-contact-link{grid-column: 5;}
 
 
 
-header {
-  margin: 0;text-align: center;
-  background-color:#F4D35E;color:#966B9D ;
-  font-family: "Monstalk", Arial, sans-serif;
-  font-size: 18px;
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-}
+
+
 
 #logo_link {padding-top: 5px; 
   justify-self: center;
