@@ -45,3 +45,5 @@ footer p a:hover {
   font-family:  "Rock Salt", Arial, sans-serif; font-size: 18px;padding: 15px 30px;    margin-top: 50px;
 border-radius: 5px;grid-row: 10;}
 .button-box:hover,.button-box-2:hover{background-color: #130a7d;color: white ;}
+.button-box{grid-column: 2/3;}
+.button-box-2{grid-column: 7/8;}
