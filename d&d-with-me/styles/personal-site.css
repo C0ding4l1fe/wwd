@@ -11,7 +11,7 @@ nav a {text-align: center;text-decoration: none;padding: 35px; color:#966B9D; ba
 nav a:hover {
   background-color: #130a7d;color: white;
 }
-.logo-image:hover{border-style: solid;border-color: #130a7d; border-width:60px}
+#nav-image:hover{border-style: solid;border-color: #130a7d; border-width:50px}
 
 
 
@@ -56,3 +56,4 @@ border-radius: 5px;grid-row: 10;text-align: center;}
 .title{text-align: center;font-family: "Monstalk", Helvetica, sans-serif;}
 .paragraph-image{align-items: right;}
 .paragraph-logo{align-items: right;}
+.sign-up-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
