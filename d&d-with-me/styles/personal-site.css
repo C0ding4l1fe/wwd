@@ -6,7 +6,7 @@ nav a {text-align: center;text-decoration: none;padding: 35px; color:#966B9D; ba
 nav a:hover {
   background-color: #130a7d;color: white;
 }
-.nav-home{  float: left;  text-align: center;
+.nav-home{text-align: center;
 padding: 35px;grid-column: 1/5;}
 .nav-home-link{grid-column: 1;}
 .nav-sign-up-link{grid-column: 2;}
