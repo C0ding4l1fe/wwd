@@ -47,3 +47,4 @@ border-radius: 5px;grid-row: 10;}
 .button-box:hover,.button-box-2:hover{background-color: #130a7d;color: white ;}
 .button-box{grid-column: 3/4;}
 .button-box-2{grid-column: 8/9;}
+.title{text-align: center;}
