@@ -6,6 +6,8 @@ nav a {text-align: center;text-decoration: none;padding: 35px; color:#966B9D; ba
 nav a:hover {
   background-color: #130a7d;color: white;
 }
+.nav-home{  float: left;  text-align: center;
+padding: 35px;}
 header {
   margin: auto;text-align: center;
   background-color:#F4D35E;color:#966B9D ;
@@ -14,11 +16,7 @@ header {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
-.nav-home{grid-column: 1;}
-.nav-sign-up{grid-column: 2;}
-.nav-logo{grid-column: 3;}
-.nav-hiring{grid-column: 4;}
-.nav-contact{grid-column: 5;}
+
 
 #logo_link {padding-top: 5px; 
   justify-self: center;
