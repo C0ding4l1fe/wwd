@@ -19,7 +19,7 @@ header {
   align-self: center;}
 img.logo {
     width: 80px; height: 80px; margin: 0 auto;}
-body {
+body { display: grid;
       background-color: #D52121 ; color:#130a7d ;
       font-family: "Baskerville", Helvetica, sans-serif;
       font-size: 18px;   margin: 0;
@@ -27,4 +27,4 @@ body {
   }
 .paragraph-heading {text-align: center;}
 .home-paragraph {text-align: left;}
-
+.home-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
