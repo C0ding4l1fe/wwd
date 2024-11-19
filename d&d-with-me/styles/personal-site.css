@@ -26,7 +26,7 @@ body { display: grid;
       padding: 0;
   }
 .paragraph-heading {text-align: center;}
-.home-paragraph {text-align: left;grid-column: 2/10;}
+.home-paragraph {text-align: left;}
 .home-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
 footer {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;margin-top: 200px;display: flex;
   justify-content: space-around;
