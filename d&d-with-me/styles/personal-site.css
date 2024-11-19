@@ -36,7 +36,8 @@ footer a{color: #966B9D;text-decoration: none;}
 footer a:hover{color: #056070;text-decoration: none;}
 footer p {
   font-size: 1.5em;
-}    
+}
+footer nav{font-size: 1.5em;}    
 
 footer p a:hover {
   text-decoration: underline;
