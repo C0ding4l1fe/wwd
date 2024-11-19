@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  justify-content: space-around;background-color: #F4D35E;
+  justify-content: space-around;background-color: #F4D35E;align-items: center;
 }
 nav a {text-align: center;text-decoration: none;padding: 35px; color:#966B9D; background-color: #F4D35E;}
 nav a:hover {
