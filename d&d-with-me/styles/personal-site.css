@@ -13,7 +13,6 @@ header {
   font-size: 18px;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-gap: 150px;
 }
 .nav-home{grid-column: 1;}
 .nav-sign-up{grid-column: 2;}
