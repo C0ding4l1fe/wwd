@@ -1,10 +1,11 @@
-nav {
-  display: flex; 
-  justify-content: space-around;background-color: #F4D35E;align-items: center;
-}
+
 header {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;margin-top: 200px;display: flex;
   justify-content: space-around;
   align-items: center; font-size: 18px;  font-family: "Monstalk", Arial, sans-serif;
+}
+nav {
+  display: flex; 
+  justify-content: space-around;background-color: #F4D35E;align-items: center;
 }
 nav a {text-align: center;text-decoration: none;padding: 35px; color:#966B9D; background-color: #F4D35E;}
 nav a:hover {
