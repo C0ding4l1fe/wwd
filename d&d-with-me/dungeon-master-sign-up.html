@@ -21,7 +21,7 @@
     text-align: right;
   }
   
-  input,
+  input.non-checkbox,
   textarea {
     /* To make sure that all text fields have the same font settings
        By default, text areas have a monospace font */
@@ -108,38 +108,38 @@
       <form action="dungeon-master-hiring.html">
         <p>
           <label for="profile-pic">Insert a Picture of Yourself</label>
-          <input type="file" id="profile-pic" name="user-picture" accept=".jpg, .jpeg, .png" />
+          <input class="non-checkbox" type="file" id="profile-pic" name="user-picture" accept=".jpg, .jpeg, .png" />
           
           
         </p>
         <p>
           <label for="name">Name:</label>
-          <input type="text" id="name" name="user_name" />
+          <input class="non-checkbox" type="text" id="name" name="user_name" />
         </p>
         <p>
           <label for="years">Years of Experience(if this is your first time, simply input 0.):</label>
-          <input type="number" id="years" name="user_years" />
+          <input class="non-checkbox" type="number" id="years" name="user_years" />
         </p>
         <p>
           <label for="players">Number of Players you'd like:</label>
-          <input type="number" id="players" name="user_players" />
+          <input class="non-checkbox" type="number" id="players" name="user_players" />
         </p>
         <p>
           <label for="description">Description of Your DMing style, and the style of the campaign you'll be running:</label>
-          <input type="text" id="name" name="user_description" />
+          <input class="non-checkbox" type="text" id="name" name="user_description" />
           <textarea name="msg" id="user_msg"></textarea>
         </p>
         <p>
           <label for="start-day">Input the date you will be starting your campaign, or story:</label>
-          <input type="date" id="start-day" name="user_start-day" />
+          <input class="non-checkbox" type="date" id="start-day" name="user_start-day" />
         </p>
         <p>
           <label for="start-time">Input the time you will be having your meetings, so that players will know beforehand if their schedules line up with yours.:</label>
-          <input type="time" id="start-time" name="user_start-time" />
+          <input class="non-checkbox" type="time" id="start-time" name="user_start-time" />
         </p>
         <p>
           <label for="meetings">Type in how often you plan to have meetings, ie. Weekly, Monthly, Bi-monthly, etc.:</label>
-          <input type="text" id="meetings" name="user_meetings" />
+          <input class="non-checkbox" type="text" id="meetings" name="user_meetings" />
         </p>
         <p>The information about the start date will be visible for players, so that they know if they're too late to join your group.</p>
         <p> </p>
@@ -147,16 +147,16 @@
         <div class="personal-info">
           <p>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="user_email" />
+            <input class="non-checkbox" type="email" id="email" name="user_email" />
           </p>
 
           <p>
             <label for="phone-number">Phone Number:</label>
-            <input type="tel" id="phone-number" name="user_number" />
+            <input class="non-checkbox" type="tel" id="phone-number" name="user_number" />
           </p>
           <p>
             <label for="other-contacts">Additional Contact Info(discord, social media profiles, etc.):</label>
-            <input type="text" id="other-contacts" name="user-contacts" />
+            <input class="non-checkbox" type="text" id="other-contacts" name="user-contacts" />
           </p>
         </div>
         <div class="privacy-for-contact-info">
