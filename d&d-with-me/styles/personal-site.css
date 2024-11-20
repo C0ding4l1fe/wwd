@@ -11,7 +11,7 @@
   box-sizing:border-box;
 }
 .privacy-for-contact-info input[type='checkbox']{
-  cursor: pointer; outline: none;
+  cursor: pointer; outline: none;border: none;
 }
 header {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;;display: flex;
   justify-content: space-around;
