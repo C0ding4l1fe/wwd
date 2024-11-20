@@ -27,7 +27,7 @@ header {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;;display: f
 }
 #nav-logo:hover{border-style: solid;border-color: #130a7d; border-width:20px}
 
-img.profile{align-items: center;width: 80px; height: 80px; margin: 0 auto;}
+img.profile{align-items: center; margin: 0 auto;}
 
 img.logo {
     width: 80px; height: 80px; margin: 0 auto;}
