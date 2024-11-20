@@ -22,20 +22,12 @@
         </nav>
     </header>
     <main class="sign-up-grid">
-      <div id="profile-form"></div>
+      <p id="profile-form"></p>
       <a href="dungeon-master-sign-up.html">Edit Your Profile</a>
       <a href="dungeon-master-hiring.html"> Submit Your Profile</a>
       <script>
-        const profileElement=document.getElementById('profile-form')
-        new URLSearchParams(window.location.search).forEach((value, 
-        name) => {
-          profileList.append(name, value)
-          print({name} +": " + {value})
-          
-        })
+        var data=window.location.search; document.getElementById("profile-form").innerHTML=data
       </script>
-      <p></p>
-      
       
 
     </main>
