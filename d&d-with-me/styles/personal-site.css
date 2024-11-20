@@ -10,7 +10,6 @@
   {
   box-sizing:border-box;
 }
-.privacy-for-contact-info{display: flex;align-items: center;}
 .privacy-for-contact-info input[type='checkbox']{
   cursor: pointer;
 }
