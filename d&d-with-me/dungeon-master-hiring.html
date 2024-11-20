@@ -26,7 +26,30 @@
       <a href="dungeon-master-sign-up.html">Edit Your Profile</a>
       <a href="dungeon-master-hiring.html"> Submit Your Profile</a>
       <script>
-        var data=window.location.search; document.getElementById("profile-form").innerHTML=data
+        var data=window.location.search; 
+        var params=new URLSearchParams(data);
+        console.log(params);
+        var user_picture=params.get("picture");
+        var user_name=params.get("name");
+        var user_years=params.get("years");
+        var user_players=params.get("players");
+        var user_msg=params.get("message");
+        var user_start_day=params.get("day");
+        var user_start_time=params.get("time");
+        var user_meetings=params.get("meetings");
+        var user_email=params.get("email");
+        var user_number=params.get("number");
+        var user_contacts=params.get("contacts");
+        var user_privacy=params.get("player_privacy");
+        var user_site_privacy=params.get("site_privacy");
+        var user_privacy_phone=params.get("privacy_phone");
+        var user_privacy_email=params.get("privacy_email");
+        var user_privacy_contacts=params.get("privacy_contacts");
+
+
+
+
+        document.getElementById("profile-form").innerHTML=data
       </script>
       
 
