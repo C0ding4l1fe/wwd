@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Monstalk";
+  src: url(Monstalk.ttf);
+
+}
+@font-face {
+  font-family: "Baskerville";
+  src: url(Baskervville-Regular.ttf);
+}
 
 header {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;;display: flex;
   justify-content: space-around;
