@@ -102,6 +102,8 @@
       
       <img class="dm-image" src="images/Dungeon Master.webp" alt="Dungeon Master Banner">
       <h2 class="paragraph-heading">Profile Creation Form</h2>
+      <div id="profile"></div>
+
       <form action="dungeon-master-hiring.html">
         <p>
           <label for="profile-pic">Insert a Picture of Yourself</label>
@@ -162,11 +164,9 @@
           <input type="checkbox" id="site-privacy-email" name="user_privacy-contacts" />
         </p>
         <p class="button">
-          <button type="submit">Finish Profile Profile</button>
+          <button type="submit">Submit Profile to Hiring Page</button>
         </p>
-
-
-        
+      
       </form>
       <img class="dm-image" src="images/Master of the World.webp" alt="NewDungeon Master Banner">
 
@@ -200,7 +200,7 @@
     </footer>
     <script>
       // get the feedback div element so we can do something with it.
-      const feedbackElement = document.getElementById('feedback');
+      const feedbackElement = document.getElementById('profile');
       // get the form so we can read what was entered in it.
       const formElement = document.forms[0];
       // add a 'listener' to wait for a submission of our form. When that happens run the code below.
@@ -208,7 +208,7 @@
           // stop the form from doing the default action.
           e.preventDefault();
           // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-          feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+          feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value+'! Thank you for your message. We will get back with you as soon as possible!';
           // make the feedback element visible.
           feedbackElement.style.display = "block";
           // add a class to move everything down so our message doesn't cover it.
