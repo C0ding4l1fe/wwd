@@ -26,10 +26,10 @@
       <a href="dungeon-master-sign-up.html">Edit Your Profile</a>
       <a href="dungeon-master-hiring.html"> Submit Your Profile</a>
       <script>
-        const profileE=document.getElementById('profile-form')
+        const profileElement=document.getElementById('profile-form')
         new URLSearchParams(window.location.search).forEach((value, 
         name) => {
-          profileList.append(f"{name}, {value}")
+          profileList.append(name, name)
         })
       </script>
       <p></p>
