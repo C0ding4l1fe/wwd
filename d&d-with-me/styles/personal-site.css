@@ -7,7 +7,13 @@
   font-family: "Baskerville";
   src: url(Baskervville-Regular.ttf);
 }
-
+  {
+  box-sizing:border-box;
+}
+.privacy-for-contact-info{display: flex;align-items: center;}
+.privacy-for-contact-info input[type='checkbox']{
+  cursor: pointer;margin-right: -100px;padding-left: -100px;
+}
 header {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;;display: flex;
   justify-content: space-around;
   align-items: center; font-size: 2em;  font-family: "Monstalk", Arial, sans-serif;
