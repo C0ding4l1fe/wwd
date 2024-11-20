@@ -105,14 +105,16 @@
       <form action="dungeon-master-hiring.html">
         <p>
           <label for="profile-pic">Insert a Picture of Yourself</label>
-          <input type="image" id="profile-pic" name="user-picture">
+          <input type="file" id="profile-pic" name="user-picture" accept=".jpg, .jpeg, .png" />
+          
+          
         </p>
         <p>
           <label for="name">Name:</label>
           <input type="text" id="name" name="user_name" />
         </p>
         <p>
-          <label for="years">Years of Experience(if this is your first time, simply type 0.):</label>
+          <label for="years">Years of Experience(if this is your first time, simply input 0.):</label>
           <input type="number" id="years" name="user_years" />
         </p>
         <p>
