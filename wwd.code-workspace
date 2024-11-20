@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "wwd",
+			"path": "."
+		},
+		{
+			"name": "Activities",
+			"path": "../../Intro to Programming/Activities"
+		}
+	],
+  "settings": {}
+}
