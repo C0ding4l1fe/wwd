@@ -29,7 +29,9 @@
         const profileElement=document.getElementById('profile-form')
         new URLSearchParams(window.location.search).forEach((value, 
         name) => {
-          profileList.append(name, name)
+          profileList.append(name, value)
+          print({name} +": " + {value})
+          
         })
       </script>
       <p></p>
