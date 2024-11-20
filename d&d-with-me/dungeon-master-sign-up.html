@@ -127,6 +127,16 @@
           <label for="description">Description of Your DMing style, and the style of the campaign you'll be running:</label>
           <input type="text" id="name" name="user_description" />
         </p>
+        <p>
+          <label for="start-day">Input the date you will be starting your campaign, or story:</label>
+          <input type="time" id="start-day" name="user_start-day" />
+        </p>
+        <p>
+          <label for="meetings">Type in how often you plan to have meetings, ie. Weekly, Monthly, Bi-monthly, etc.:</label>
+          <input type="text" id="meetings" name="user_meetings" />
+        </p>
+        <p>The information about the start date will be visible for players, so that they know if they're too late to join your group.</p>
+        <p> </p>
         <p>The Following will ask you for personal contact info, which we will use and players will see.</p>
         <div class="personal-info">
           <p>
@@ -143,26 +153,28 @@
             <input type="text" id="other-contacts" name="user-contacts" />
           </p>
         </div>
-        <p>
-          <label for="privacy">Check the box if you want the contact info to be public. If you don't check it, it will only be shown to those players who hire you.</label>
-          <input type="checkbox" id="privacy" name="user_privacy" />
-        </p>
-        <p>
-          <label for="site-privacy">Would you like us to have access to all the personal info submitted here? If not, leave the box to the right unchecked, and check the specific information you'd like us to have. You must check at least phone number or email.</label>
-          <input type="checkbox" id="site-privacy" name="user_site-privacy" />
-        </p>
-        <p>
-          <label for="site-privacy-phone">Phone Number</label>
-          <input type="checkbox" id="site-privacy-phone" name="user_privacy-phone" />
-        </p>
-        <p>
-          <label for="site-privacy-email">Email</label>
-          <input type="checkbox" id="site-privacy-email" name="user_privacy-email" />
-        </p>
-        <p>
-          <label for="site-privacy">Other Contact Info</label>
-          <input type="checkbox" id="site-privacy-email" name="user_privacy-contacts" />
-        </p>
+        <div class="privacy-for-contact-info">
+          <p>
+            <label for="privacy">Check the box if you want the contact info to be public. If you don't check it, it will only be shown to those players who hire you.</label>
+            <input type="checkbox" id="privacy" name="user_privacy" />
+          </p>
+          <p>
+            <label for="site-privacy">Would you like us to have access to all the personal info submitted here? If not, leave the box to the right unchecked, and check the specific information you'd like us to have. You must check at least phone number or email.</label>
+            <input type="checkbox" id="site-privacy" name="user_site-privacy" />
+          </p>
+          <p>
+            <label for="site-privacy-phone">Phone Number</label>
+            <input type="checkbox" id="site-privacy-phone" name="user_privacy-phone" />
+          </p>
+          <p>
+            <label for="site-privacy-email">Email</label>
+            <input type="checkbox" id="site-privacy-email" name="user_privacy-email" />
+          </p>
+          <p>
+            <label for="site-privacy">Other Contact Info</label>
+            <input type="checkbox" id="site-privacy-email" name="user_privacy-contacts" />
+          </p>
+        </div>
         <p class="button">
           <button type="submit">Submit Profile to Hiring Page</button>
         </p>
@@ -209,7 +221,7 @@
           // stop the form from doing the default action.
           e.preventDefault();
           // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-          feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value+'! Thank you for your message. We will get back with you as soon as possible!';
+          feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value+'! Thank you for your profile. We will contact you when players hire you, and when all the seats available in your game are filled!';
           // make the feedback element visible.
           feedbackElement.style.display = "block";
           // add a class to move everything down so our message doesn't cover it.
