@@ -29,6 +29,8 @@ body { display: grid;
 .paragraph-heading {text-align: center;font-family: "Monstalk", Helvetica, sans-serif;
 }
 .home-paragraph {text-align: left;font-family: "Baskerville", Helvetica, sans-serif;}
+.sign-up-paragraph {text-align: left;font-family: "Baskerville", Helvetica, sans-serif;}
+
 .home-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
 footer {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;margin-top: 200px;display: flex;
   justify-content: space-around;
