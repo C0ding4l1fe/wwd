@@ -37,6 +37,7 @@ body { display: grid;
       padding: 0;
   }
 .paragraph-heading {text-align: center;font-family: "Monstalk", Helvetica, sans-serif;}
+.paragraph-heading-profile{text-align: left;font-family: "Monstalk", Helvetica, sans-serif;}
 .paragraph-body {text-align: left;font-family: "Baskerville", Helvetica, sans-serif;font-size: 1.5em;}
 
 .home-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
