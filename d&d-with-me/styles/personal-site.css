@@ -42,7 +42,7 @@ body { display: grid;
 .home-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
 footer {background-color: #F4D35E;color:#966B9D  ;padding: 35px;margin-top: 200px;display: flex;
   justify-content: space-around;
-  align-items: center;}
+  align-items: center; font-family: "Monstalk", Arial, Helvetica, sans-serif;}
 footer .social img{padding-top: 15px;}
 footer a{color: #966B9D;text-decoration: none;}
 footer a:hover{background-color: #130a7d;text-decoration: none;color: white;}
