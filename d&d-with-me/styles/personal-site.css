@@ -42,7 +42,6 @@ body { display: grid;
 .paragraph-body {text-align: left;font-family: "Baskerville", Helvetica, sans-serif;font-size: 1.5em;}
 
 .home-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
-.hiring-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
 
 footer {background-color: #F4D35E;color:#966B9D  ;padding: 35px;margin-top: 200px;display: flex;
   justify-content: space-around;
