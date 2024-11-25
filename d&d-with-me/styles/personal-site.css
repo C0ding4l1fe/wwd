@@ -52,7 +52,7 @@ footer a:hover{text-decoration: none;color: white;padding: 10px;}
 footer p {
   font-size: 1.5em;
 }
-footer nav{font-size: 1.5em;}    
+footer nav{font-size: 1.5em; text-align: left;}    
 
 #site-plan-link {
   text-decoration: underline;background-color: #130a7d;color: white;
