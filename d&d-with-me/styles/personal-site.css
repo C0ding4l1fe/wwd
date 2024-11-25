@@ -67,7 +67,7 @@ border-radius: 5px;grid-row: 10;text-align: center;}
 .sign-up:hover,.hire:hover{color:white}
 .title{text-align: center;font-family: "Monstalk", Helvetica, sans-serif;}
 .paragraph-image{align-items: right;}
-.paragraph-logo{align-items: right;}
+.paragraph-logo{margin-left: auto;}
 .sign-up-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
 .dm-image{width: 100%;}
 .profile-box{background-color: #F4D35E; color: #966B9D;}
