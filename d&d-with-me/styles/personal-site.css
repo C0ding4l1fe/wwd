@@ -48,10 +48,11 @@ footer {background-color: #F4D35E;color:#966B9D  ;padding: 35px;margin-top: 200p
   align-items: center; font-family: "Monstalk", Arial, Helvetica, sans-serif;}
 footer .social img{padding-top: 15px;}
 footer a{color: #966B9D;text-decoration: none;}
-footer a:hover{background-color: #130a7d;text-decoration: none;color: white;padding: 10px;}
+footer a:hover{text-decoration: none;color: white;padding: 10px;}
 footer p {
   font-size: 1.5em;
 }
+footer p:hover{color: white; background-color: #130a7d; }
 footer nav{font-size: 1.5em;}    
 
 footer p a:hover {
