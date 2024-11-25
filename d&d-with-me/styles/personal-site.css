@@ -72,8 +72,6 @@ border-radius: 5px;grid-row: 10;text-align: center;}
 #home-images{display: block;margin-left: auto;}
 .home-dice{margin-left: auto;}
 h2{font-size: 1.5em;}
-
-
 .sign-up-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
 .dm-image{width: 100%;margin: 10px;padding: 20px;}
 .profile-box{background-color: #F4D35E; color: #966B9D;}
