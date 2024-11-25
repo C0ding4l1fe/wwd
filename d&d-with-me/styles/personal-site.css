@@ -22,7 +22,7 @@ header {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;;display: f
   justify-content: space-around;background-color: #F4D35E;align-items: center;
 }
 .home-navigation a {text-align: center;text-decoration: none;padding: 35px; color:#966B9D; background-color: #F4D35E;}
-#site-plan-link:hover,#nav-home-link:hover,#nav-sign-up-link:hover,#hiring-link:hover,#nav-contact-link:hover,#hiring-button:hover {
+#site-plan-link:hover,#nav-home-footer:hover,#nav-sign-up:hover,#nav-hiring:hover,#nav-contact-link:hover,#hiring-button:hover {
   background-color: #130a7d;color: white;padding: 10px;
 }
 #hiring-button{font-size: 2em; color: #966B9D; text-align: center;align-items:center;font-family:  "Monstalk", Arial, Helvetica, sans-serif;}
