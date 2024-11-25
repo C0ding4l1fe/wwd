@@ -52,11 +52,11 @@ footer a:hover{text-decoration: none;color: white;padding: 10px;}
 footer p {
   font-size: 1.5em;
 }
-footer p:hover{color: white; background-color: #130a7d; }
+footer p:hover{color: white;}
 footer nav{font-size: 1.5em;}    
 
 footer p a:hover {
-  text-decoration: underline;
+  text-decoration: underline;background-color: #130a7d;
 }
 .button-box,.button-box-2{background-color: #F4D35E;color: black ;text-decoration: none; width: 150px;
   font-family:  "Monstalk", Arial, sans-serif; font-size: 18px;padding: 15px 30px;    margin-top: 50px;
