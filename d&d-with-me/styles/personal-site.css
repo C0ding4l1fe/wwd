@@ -58,12 +58,13 @@ footer p a:hover {
   text-decoration: underline;
 }
 .button-box,.button-box-2{background-color: #F4D35E;color: black ;text-decoration: none; width: 150px;
-  font-family:  "Rock Salt", Arial, sans-serif; font-size: 18px;padding: 15px 30px;    margin-top: 50px;
+  font-family:  "Monstalk", Arial, sans-serif; font-size: 18px;padding: 15px 30px;    margin-top: 50px;
 border-radius: 5px;grid-row: 10;text-align: center;}
 .button-box:hover,.button-box-2:hover{background-color: #130a7d; color: white ;}
 .buttons{display: grid;grid-template-columns: 33% auto;}
 .button-box{grid-column: 2;}
 .button-box-2{grid-column: 3;}
+.sign-up,.hire{color:#966B9D; font-family:  "Monstalk", Arial, sans-serif; font-size: 18px}
 .sign-up:hover,.hire:hover{color:white}
 .title{text-align: center;font-family: "Monstalk", Helvetica, sans-serif;}
 .paragraph-image{align-items: right;}
