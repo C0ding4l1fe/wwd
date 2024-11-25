@@ -64,7 +64,7 @@ border-radius: 5px;grid-row: 10;text-align: center;}
 .buttons{display: grid;grid-template-columns: 33% auto;}
 .button-box{grid-column: 2;}
 .button-box-2{grid-column: 3;}
-.sign-up,.hire{color:#966B9D; font-family:  "Monstalk", Arial, sans-serif; font-size: 18px}
+.sign-up,.hire{color:#966B9D; font-family:  "Monstalk", Arial, sans-serif; font-size: 18px;text-align: center;}
 .sign-up:hover,.hire:hover{color:white}
 .title{text-align: center;font-family: "Monstalk", Helvetica, sans-serif;}
 .paragraph-image{align-items: right;}
