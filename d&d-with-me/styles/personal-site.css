@@ -47,7 +47,7 @@ body { display: grid;
 footer {background-color: #F4D35E;color:#966B9D  ;padding: 35px;margin-top: 200px;display: flex;
   justify-content: space-around;
   align-items: center; font-family: "Monstalk", Arial, Helvetica, sans-serif;}
-footer .social img{padding-top: 15px;}
+footer .social img{padding-top: 20px;}
 footer a{color: #966B9D;text-decoration: none;text-align: left;}
 footer a:hover{text-decoration: none;color: white;padding: 10px;}
 footer p {
