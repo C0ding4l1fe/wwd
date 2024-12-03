@@ -26,47 +26,10 @@
       <h1 class="paragraph-heading">Dungeon Master Hiring</h1>
       <p class="paragraph-body">Welcome future Dungeons and Dragons players! I'm glad you want to find some fun, and here's a way to do it. Below you'll find the profiles of various Dungeon Masters. Different Dungeon Masters are comfortable with different group sizes, different gameplay frequencies, and all sorts of different factors. Simply scroll through our vast collection, or add filters to narrow your search, and click the Hire button to find exactly what you want in a Dungeon Master. The number of open seats for a Dungeon Master's game is able to be seen, so you'll know if a Dungeon Master would be comfortable adding you to the mix. Once you hire a Dungeon Master, you'll gain access to their contact info, and general location, so that you can chat with them, and find out if you'd like to play in person or over the internet. So go ahead and search, discover, and find the perfect Dungeon Master for you!</p> <br />
       <br />
-    <section class="profile-box">
-      <img class="profile" src="images/rsz_profile_pic.jpg" alt="Profile Pic">
-
-      <p id="profile-form"></p>
-      <script>
-        var data=window.location.search; 
-        var params=new URLSearchParams(data);
-        console.log(params);
-        var user_picture=params.get("picture");
-        var user_name=params.get("name");
-        var user_years=params.get("years");
-        var user_players=params.get("players");
-        var user_msg=params.get("message");
-        var user_start_day=params.get("day");
-        var user_start_time=params.get("time");
-        var user_meetings=params.get("meetings");
-        var user_email=params.get("email");
-        var user_number=params.get("number");
-        var user_contacts=params.get("contacts");
-        var user_privacy=params.get("player_privacy");
-        var user_site_privacy=params.get("site_privacy");
-        var user_privacy_phone=params.get("privacy_phone");
-        var user_privacy_email=params.get("privacy_email");
-        var user_privacy_contacts=params.get("privacy_contacts");
-        
-        var getData= " "+user_picture+ "<br>";
-            getData= "Name: "+user_name+ "<br>";
-            getData= "Years of Experience: "+user_years+ "<br>";
-            getData= "Dungeon Master Style: "+user_msg+ "<br>";
-            getData= "Start Day: "+user_start_day+ "<br>";
-            getData= "Start Time: "+user_start_time+ "<br>";
-            getData= "Meeting Schedule: "+user_meetings+ "<br>";
-            getData= "Email: "+user_email+ "<br>";
-            getData= "Phone Number: "+user_number+ "<br>";
-            getData= "Other Contacts: "+user_contacts+ "<br>";
-            <a href="dungeon-master-sign-up.html">Edit Your Profile</a>;
-            <a href="dungeon-master-hiring.html"> Submit Your Profile</a>;
-            document.getElementById("profile-form").innerHTML=data
-      </script> <br />
-      <h2 class="paragraph-heading-profile">Jared Peterson</h2>
-      <p class="paragraph-body">&emsp;8 Years of Experience</p>
+    <div class="card">
+      <img src="images/rsz_profile_pic.jpg" alt="Jared Peterson" style="width:100%">
+      <h1 class="paragraph-heading">Jared Peterson</h1>
+      <p class="title">DM of 8 years</p>
       <p class="paragraph-body">&emsp;Description: I like to play clean, fun games, with plenty of comedy, combat, mystery, and world. The game I'll run will be appropriate for all ages, and I welcome anyone.</p>
       <h2 class="paragraph-heading-profile">Start Date:</h2><p class="paragraph-body">&emsp;01/29/2024</p>
       <h2 class="paragraph-heading-profile">Start Time:</h2><p class="paragraph-body">&emsp;4:30 PM</p>
@@ -76,12 +39,6 @@
       <p class="paragraph-body">&emsp;Email: cir4bus4ev3r@byui.edu</p>
       <p class="paragraph-body">&emsp;Other Contacts: Unavailable</p>
       <a id="hiring-button" href="dungeon-master-hiring.html">Hire</a>
-    </section>
-    <div class="card">
-      <img src="img.jpg" alt="John" style="width:100%">
-      <h1>John Doe</h1>
-      <p class="title">CEO & Founder, Example</p>
-      <p>Harvard University</p>
       <a href="#"><i class="fa fa-dribbble"></i></a>
       <a href="#"><i class="fa fa-twitter"></i></a>
       <a href="#"><i class="fa fa-linkedin"></i></a>
