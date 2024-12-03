@@ -103,7 +103,7 @@
       <img class="dm-image" src="images/Dungeon Master.webp" alt="Dungeon Master Banner">
       <h2 class="paragraph-heading">Profile Creation Form</h2>
       
-      <div id="profile"></div>
+      <div id="profile-form-msg"></div>
 
       <form id="profile-form" action="dungeon-master-hiring.html" method="get">
         <p class="paragraph-body">
@@ -219,7 +219,7 @@
 </div>
 <script>
   // get the feedback div element so we can do something with it.
-  const feedbackElement = document.getElementById('profile-form');
+  const feedbackElement = document.getElementById('profile-form-msg');
   // get the form so we can read what was entered in it.
   const formElement = document.forms[0];
   // add a 'listener' to wait for a submission of our form. When that happens run the code below.
