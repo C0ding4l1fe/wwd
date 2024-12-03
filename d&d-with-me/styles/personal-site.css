@@ -29,7 +29,7 @@ header {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;;display: f
 #hiring-button{font-size: 2em; color: #966B9D; text-align: center;display:block; margin: 0 auto;font-family:  "Monstalk", Arial, Helvetica, sans-serif;}
 #nav-logo:hover{border-style: solid;border-color: #130a7d; border-width:20px}
 
-img.profile-pic{align-items: center; height: 300px; width: 300px; margin: 0 auto;}
+img.profile-pic{align-items: center; height: 300px; max-width:300px; margin: 0 auto;}
 
 img.logo {
     width: 80px; height: 80px; margin: 0 auto;}
