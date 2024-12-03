@@ -41,6 +41,8 @@ body { display: grid;
 .paragraph-heading {text-align: center;font-family: "Monstalk", Helvetica, sans-serif;}
 .paragraph-heading-profile{text-align: left;font-family: "Monstalk", Helvetica, sans-serif;}
 .paragraph-body {text-align: left;font-family: "Baskerville", Helvetica, sans-serif;font-size: 1.5em;}
+.paragraph-body-profile {text-align: center;font-family: "Baskerville", Helvetica, sans-serif;font-size: 1.5em;}
+
 
 .home-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
 
@@ -83,7 +85,7 @@ h2{font-size: 1.5em;}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 600px;
+  max-width: 1000px;
   margin: auto;
   text-align: center;background-color: #F4D35E;
 }
