@@ -13,7 +13,7 @@
 }
 input .chk {width: 10px;
   margin:0;}
-header {background-color: #F4D35E;color:#966B9D  ;padding: 25px 50px;;display: flex;
+header {background-color: #F4D35E;color:#966B9D  ;padding: 35px;;display: flex;
   justify-content: space-around;
   align-items: center; font-size: 2em;  font-family: "Monstalk", Arial, sans-serif;
 }
