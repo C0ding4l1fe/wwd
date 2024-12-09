@@ -70,7 +70,7 @@ border-radius: 5px;grid-row: 10;text-align: center;}
 .title{text-align: center;font-family: "Monstalk", Helvetica, sans-serif;}
 .title-profile{font-size: 1.5em;text-align: center;font-family: "Monstalk", Arial, Helvetica, sans-serif;}
 .paragraph-image{align-items: right;}
-#home-images{display: block;margin-left: auto;}
+#home-images{display: block;margin: 0 auto;}
 .home-dice{margin-left: auto;}
 h2{font-size: 1.5em;}
 .sign-up-grid{grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;}
